@@ -1,4 +1,8 @@
 
+
+
+
+
 //STATEMENTS:A statement is the smallest logical entity that can independently exist in C
 //In C,expressions do not have any independent existence,so we convert expressions to statements.
 //EXECUTABLE STATEMENTS:an executable statements are nothiung but instructions which performs the actrion when we run the program
