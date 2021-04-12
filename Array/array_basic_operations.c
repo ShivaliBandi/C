@@ -21,7 +21,7 @@ int main()
    printf("%d\n",arr);//100
    printf("%d\n",&arr);//100
    printf("%d\n",arr+1);//104
-   printf("%d\n",&(arr+1));//104
+
 
 
    printf("%d\n",&arr+1);//for the compiler base address of array is only one thing by using which we can access all elements of array
