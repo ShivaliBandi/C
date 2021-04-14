@@ -8,6 +8,16 @@ Depend on the datatype to which out pointer is pointing we can decide how menory
 */
 int main()
 {
-
+    char ch='S',*cptr;
+    int ino=10,*iptr;
+    float fno=4.5,*fptr;
+    double dno=2.345,*dptr;
+    cptr=&ch;
+    iptr=&ino;
+    fptr=&fno;
+    dptr=&dno;
+    
+    printf("Printing Value at that address\nch=%c(character)\tino=%d(integer)\tfno=%f(float)\tdno=%lf(double)\n",*cptr,*iptr,*fptr,*dptr);
+    
     return 0;
 }
