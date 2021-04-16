@@ -16,7 +16,6 @@ int main()
     iptr=&ino;
     fptr=&fno;
     dptr=&dno;
-    
     printf("Printing Value at that address\nch=%c(character)\tino=%d(integer)\tfno=%f(float)\tdno=%lf(double)\n",*cptr,*iptr,*fptr,*dptr);
     
     return 0;
