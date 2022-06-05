@@ -14,11 +14,11 @@ int main()
 }
  //**************Compound statement******************
   /*
-    //A compound statement is nothing but sequence of simple statements and declarations.
-    //A compound statement is also known as block,it need not to be terminated by semi-colon
-    //if it is terminated by semi=colon there wont be any compilation error but it will be interpreted in different way
-    //compound statements can be empty example:
-    //int fun(){}
+    A compound statement is nothing but sequence of simple statements and declarations.
+    A compound statement is also known as block,it need not to be terminated by semi-colon
+    if it is terminated by semi=colon there wont be any compilation error but it will be interpreted in different way
+    compound statements can be empty example:
+    int fun(){}
     an empty compound statement is equivalent to null statement,but it cannot act as terminator of statement
     NULL STATEMENT:it is the simplest form of program statement and performs no operation.
 

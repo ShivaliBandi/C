@@ -12,10 +12,10 @@ EXPRESSION STATEMENT:An expression which terminates with a semicolon,is known as
 
 int main()
 {
-   int a;                           //definition statement
-   extern int inum;                 //declaration statement
-   ;                                //NULL statement
-   a=10+23;                         //expression statement
-   lab:printf("Hello World");       //label statement,where lab is label name nd printf(".."); is statement                 
+    int a;                           //definition statement
+    extern int inum;                 //declaration statement
+    ;                                //NULL statement
+    a=10+23;                         //expression statement
+    lab:printf("Hello World");       //label statement,where lab is label name nd printf(".."); is statement                 
     return 0;                   
 }

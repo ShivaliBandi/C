@@ -4,6 +4,7 @@
 int main() 
 { 
    int x = 2; 
+   //we can pass only integer  to switch argument
    switch (x) 
    { 
        case 1: printf("Choice is 1"); 
