@@ -7,7 +7,7 @@ int main()
     scanf("%d",&inum);
     for(int irow=1;irow<=inum;irow++)
     {
-        for(int icol=1;icol<=irow;icol++)
+        for(int icol=inum;icol>=irow;icol--)
             printf("* ");
         printf("\n");
     }
@@ -17,9 +17,15 @@ int main()
 
 }
 /*
-Enter number4
-* 
-* * 
-* * * 
+Enter number10
+* * * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * 
+* * * * * * * 
+* * * * * * 
+* * * * * 
 * * * * 
+* * * 
+* * 
+* 
 */
