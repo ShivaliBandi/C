@@ -7,6 +7,7 @@
 #include"number_pyramid.h"
 #include"alphabet_pyramid.h"
 #include"floyd_triangle.h"
+#include"continous_number.h"
 int main()
 {
 
@@ -20,7 +21,8 @@ int main()
    //hollow_diamond_pyramid(inum);
    //number_pyramid(inum);
    //alphabet_pyramid(inum);
-   floyd_triangle(inum);
+   //floyd_triangle(inum);
+   continous_number(inum);
     return 0;
 
 }
