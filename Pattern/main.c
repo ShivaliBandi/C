@@ -4,6 +4,9 @@
 #include"diamond_pyramid.h"
 #include"hollow_pyramid.h"
 #include"hollow_diamond_pyramid.h"
+#include"number_pyramid.h"
+#include"alphabet_pyramid.h"
+#include"floyd_triangle.h"
 int main()
 {
 
@@ -14,7 +17,10 @@ int main()
     //inverted_pyramid(inum);
    // diamond_pyramid(inum);
    //hollow_pyramid(inum);
-   hollow_diamond_pyramid(inum);
+   //hollow_diamond_pyramid(inum);
+   //number_pyramid(inum);
+   //alphabet_pyramid(inum);
+   floyd_triangle(inum);
     return 0;
 
 }
